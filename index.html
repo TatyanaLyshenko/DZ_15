@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Верстка макета через flex-модель</title>
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="header__line">
+            <a class="logo__link" href="#">
+              <img class="logo__img" src="./assets/images/logo.png" alt="logo">
+            </a>
+          <nav class="header__menu">
+            <a class="header__menu-link header__menu-link--current" href="#">Home</a>
+            <a class="header__menu-link" href="#">Services</a>
+            <a class="header__menu-link" href="#">Portfolio</a>
+            <a class="header__menu-link" href="#">About</a>
+            <a class="header__menu-link" href="#">Contact</a>       
+          </nav>      
+        </div>           
+      </div>
+    </header>
+
+    <section class="first-screen">
+      <div class="first-screen__content">
+        <h1 class="first-screen__title">Try Design, You'll Like It.</h1>
+        <button class="first-screen__btn btn">Show menu</button>
+      </div>
+    </section>
+    
+    <section class="direction">
+      <div class="container">
+        <div class="direction__list">
+          <h2 class="direction__title">Directions</h2>
+          <div class="direction__items">
+            <div class="direction__item">
+              <div class="direction__item-img">
+                <img src="./assets/images/img1.png" alt="logo">
+              </div>
+              <h4 class="direction__item-title">Web design</h4>
+              <p class="directions__item-text">
+                Eum cu tantas legere complectitur.Tantas legere complectitur, hinc utamur ea eam
+                ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+            <div class="direction__item">
+              <div class="direction__item-img">
+                <img src="./assets/images/img2.png" alt="logo">
+              </div>
+              <h4 class="direction__item-title">GRAPHIC DESIGN</h4>
+              <p class="directions__item-text">
+                Eum cu tantas legere complectitur, hinc utamur ea eaum cu tantas legere complectitur.Tantas legere complectitur
+                ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+            <div class="direction__item">
+              <div class="direction__item-img">
+                <img src="./assets/images/img3.png" alt="logo">
+              </div>
+              <h4 class="direction__item-title">PROGRAMMING</h4>
+              <p class="directions__item-text">
+                Eum cu tantas legere complectitur, hinc utamur ea e cu tantas legere com , eam 
+                ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+            <div class="direction__item">
+              <div class="direction__item-img">
+                <img src="./assets/images/img4.png" alt="logo">
+              </div>
+              <h4 class="direction__item-title">PHOTOGRAPHY</h4>
+              <p class="directions__item-text">
+                Eum cu tantas legere complectitur.Tantas legere complectitur, hinc utamur ea eam 
+                ustolion mplectitur, hinc utal.
+              </p>
+            </div>
+          </div>
+          <button class="direction__btn btn">NEED SERVICE?</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="browser">
+      <div class="container">
+        <div class="browser__list">
+          <h2 class="browser__title">The Design That Likes To Say Yes.</h2>
+          <p class="browser__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu,
+            diam erant convenire et vis. Et essent evertitur sea, vis cu ubique referrentur, sed eu dicant expetendis.
+          </p>
+          <div class="browser__image">
+            <img src="./assets/images/browser.png" alt="browser">
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <section class="phone">
+      <div class="container">
+        <div class="phone__list">
+          <div class="phone__image">
+            <img src="./assets/images/phone.png" alt="phone">
+          </div>
+          <div class="phone__content">
+            <h2 class="phone__title">Fully Responsive</h2>
+            <p class="phone__text"> 
+              Eum cu tantas legere complectitur, hinc utamur ea eam. Lorem ipsum dolor sit amet, volumus temporibus definitionem id ius, vel ut magna timeam appareat, movet timeam maiorum an ius. <br>
+              Sea libris dictas lucilius et. Ne cibo urbanitas pri, qui ad populo accusamus. Quod congue ea ius, nisl aperiri sit ut.
+            </p>
+            <button class="phone__btn btn">order me one</button>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <section class="portfolio">
+      <div class="container">
+        <div class="portfolio__list">
+          <h2 class="portfolio__title">The Design That Likes To Say Yes.</h2>
+          <p class="portfolio__text">
+            Eum cu tantas legere complectitur, hinc utamur ea eam. Eum patrioque mnesarchum eu, diam erant convenire et vis. Et essent evertitur sea, 
+            vis cu ubique referrentur, sed eu dicant expetendis.
+          </p>
+          <ul class="portfolio__menu">
+            <li class="portfolio__menu-list">
+              <a class="portfolio__menu-link portfolio__menu-link--current" href="#">All</a>
+            </li>
+            <li class="portfolio__menu-list">
+              <a class="portfolio__menu-link" href="#">web</a>
+            </li>
+            <li class="portfolio__menu-list">
+              <a class="portfolio__menu-link" href="#">PHOTOGRAPHY</a>
+            </li>
+            <li class="portfolio__menu-list">
+              <a class="portfolio__menu-link" href="#">GRAPHIC DESIGN</a>
+            </li>  
+          </ul>
+          <div class="portfolio__block">
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">WEB DESIGN</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">PHOTOGRAPHY</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">PROGRAMMING</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">WEB DESIGN</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">PHOTOGRAPHY</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+            <div class="block__list">
+              <div class="block__decor"></div>
+              <div class="block__content">
+                <h4 class="block__title">PROGRAMMING</h4>
+                <p class="block__text">
+                Eum cu tantas legere complectitur,
+                hinc utamur ea eaum cu tantas legere complectitur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__image">
+            <img src="./assets/images/img5.png" alt="portfolio">
+          </div>
+        </div>
+      </div>
+        
+    </section>
+</body>
+</html>
